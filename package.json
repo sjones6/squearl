@@ -1,0 +1,24 @@
+{
+  "name": "squearl",
+  "version": "0.0.0",
+  "description": "CLI for squearl.com",
+  "main": "index.js",
+  "keywords": [
+    "twitter automation",
+    "squearl"
+  ],
+  "author": "sjones6",
+  "license": "MIT",
+  "bin": {
+    "squearl": "./cli.js"
+  },
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "axios": "^0.21.1",
+    "commander": "^7.0.0",
+    "date-fns": "^2.16.1",
+    "enquirer": "^2.3.6",
+    "sugar": "^2.0.6",
+    "twitter-text": "^3.1.0"
+  }
+}
