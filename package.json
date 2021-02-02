@@ -8,10 +8,16 @@
     "squearl"
   ],
   "author": "sjones6",
+  "repository": "git://github.com/sjones6/squearl.git",
+  "homepage": "https://github.com/sjones6/squearl",
+  "bugs": {
+    "url": "https://github.com/sjones6/squearl/issues"
+  },
   "license": "MIT",
   "bin": {
     "squearl": "./cli.js"
   },
+  
   "dependencies": {
     "ansi-colors": "^4.1.1",
     "axios": "^0.21.1",
